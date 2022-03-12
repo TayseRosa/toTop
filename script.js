@@ -23,5 +23,5 @@ function scrollButton() {
   }
 }
 
-/* Monotor page scroll */
+/* Monitor page scroll */
 window.addEventListener('scroll', scrollButton)
