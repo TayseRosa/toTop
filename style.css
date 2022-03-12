@@ -1,0 +1,26 @@
+.scrollButtton {
+  display: none;
+}
+
+.scrollButtton:before {
+  content: '⬆';
+  color: #fff;
+  font: normal 40px 'dashicons';
+  -webkit-font-smoothing: antialiased;
+
+  background-color: rgba(0, 0, 0, 0.35);
+  border-radius: 10%;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+  z-index: 999;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  min-height: 1200px;
+}
